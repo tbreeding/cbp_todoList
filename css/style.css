@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    font-family: sans-serif;
+    user-select: none;
+}
+ul {
+    background-color: white;
+    font-size: 2rem;
+    padding: 50px 40px 50px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style:none;
+}
+li {
+    margin: 10px 0;
+    cursor: pointer;
+    text-decoration: line-through;
+    color: gray;
+    display: flex;
+    align-items: center;
+}
+img {
+    height: 40px;
+    margin: 0 10px;
+}
+.unchecked {
+    text-decoration: none;
+    color: black;
+}
